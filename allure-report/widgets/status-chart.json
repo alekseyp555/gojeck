@@ -1,0 +1,141 @@
+[ {
+  "uid" : "19269ed3406e4771",
+  "name" : "testRemoveProductFromCart",
+  "time" : {
+    "start" : 1559737898459,
+    "stop" : 1559737918879,
+    "duration" : 20420
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "70a3d422abc5f3ae",
+  "name" : "testDataDriveParametrizeSearch",
+  "time" : {
+    "start" : 1559737939371,
+    "stop" : 1559737949782,
+    "duration" : 10411
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2c691e2ed7ff97d3",
+  "name" : "testReduceQuantity",
+  "time" : {
+    "start" : 1559737918916,
+    "stop" : 1559737939349,
+    "duration" : 20433
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f3b256a60af71b14",
+  "name" : "testDataDriveParametrizeSearch",
+  "time" : {
+    "start" : 1559737939366,
+    "stop" : 1559737949782,
+    "duration" : 10416
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9831b1f9e8dea8ba",
+  "name" : "testLogOut",
+  "time" : {
+    "start" : 1559737867662,
+    "stop" : 1559737877506,
+    "duration" : 9844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63373dafcebfacc2",
+  "name" : "testSelectDepartment",
+  "time" : {
+    "start" : 1559737877519,
+    "stop" : 1559737888022,
+    "duration" : 10503
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9f3d8754ab11cdae",
+  "name" : "testSearchMacbook",
+  "time" : {
+    "start" : 1559737888045,
+    "stop" : 1559737898441,
+    "duration" : 10396
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6bba3c52a964f466",
+  "name" : "testSearchMacbook",
+  "time" : {
+    "start" : 1559737888042,
+    "stop" : 1559737898440,
+    "duration" : 10398
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2bed78cac6fcb3e1",
+  "name" : "testLogOut",
+  "time" : {
+    "start" : 1559737867666,
+    "stop" : 1559737877507,
+    "duration" : 9841
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17c11071315cfef1",
+  "name" : "testReduceQuantity",
+  "time" : {
+    "start" : 1559737918918,
+    "stop" : 1559737939349,
+    "duration" : 20431
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e382732619dcb22",
+  "name" : "testLogIn",
+  "time" : {
+    "start" : 1559737861014,
+    "stop" : 1559737867592,
+    "duration" : 6578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4111f6b3d9b91fc8",
+  "name" : "testSelectDepartment",
+  "time" : {
+    "start" : 1559737877521,
+    "stop" : 1559737888024,
+    "duration" : 10503
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "29812947a98d59af",
+  "name" : "testRemoveProductFromCart",
+  "time" : {
+    "start" : 1559737898455,
+    "stop" : 1559737918879,
+    "duration" : 20424
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "342c35d3b6c621b4",
+  "name" : "testLogIn",
+  "time" : {
+    "start" : 1559737860949,
+    "stop" : 1559737867584,
+    "duration" : 6635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

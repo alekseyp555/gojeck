@@ -1,0 +1,215 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "ru.qa.testingsoft.login.tests",
+    "children" : [ {
+      "name" : "LoginTest",
+      "children" : [ {
+        "name" : "testLogIn",
+        "uid" : "342c35d3b6c621b4",
+        "parentUid" : "79ef5a6885ad7b7b813227f38dc7d768",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559737860949,
+          "stop" : 1559737867584,
+          "duration" : 6635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLogIn",
+        "uid" : "1e382732619dcb22",
+        "parentUid" : "79ef5a6885ad7b7b813227f38dc7d768",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559737861014,
+          "stop" : 1559737867592,
+          "duration" : 6578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLogOut",
+        "uid" : "9831b1f9e8dea8ba",
+        "parentUid" : "79ef5a6885ad7b7b813227f38dc7d768",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559737867662,
+          "stop" : 1559737877506,
+          "duration" : 9844
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testLogOut",
+        "uid" : "2bed78cac6fcb3e1",
+        "parentUid" : "79ef5a6885ad7b7b813227f38dc7d768",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559737867666,
+          "stop" : 1559737877507,
+          "duration" : 9841
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79ef5a6885ad7b7b813227f38dc7d768"
+    }, {
+      "name" : "SelectDepartmentTest",
+      "children" : [ {
+        "name" : "testSelectDepartment",
+        "uid" : "63373dafcebfacc2",
+        "parentUid" : "8e5f593adf8610beca039d96fea17211",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737877519,
+          "stop" : 1559737888022,
+          "duration" : 10503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSelectDepartment",
+        "uid" : "4111f6b3d9b91fc8",
+        "parentUid" : "8e5f593adf8610beca039d96fea17211",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737877521,
+          "stop" : 1559737888024,
+          "duration" : 10503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e5f593adf8610beca039d96fea17211"
+    }, {
+      "name" : "SearchMacbookTest",
+      "children" : [ {
+        "name" : "testSearchMacbook",
+        "uid" : "6bba3c52a964f466",
+        "parentUid" : "65c6cbb31665189e8ae6baa0302e9af9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737888042,
+          "stop" : 1559737898440,
+          "duration" : 10398
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testSearchMacbook",
+        "uid" : "9f3d8754ab11cdae",
+        "parentUid" : "65c6cbb31665189e8ae6baa0302e9af9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737888045,
+          "stop" : 1559737898441,
+          "duration" : 10396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65c6cbb31665189e8ae6baa0302e9af9"
+    }, {
+      "name" : "RemoveProductFromCartTest",
+      "children" : [ {
+        "name" : "testRemoveProductFromCart",
+        "uid" : "29812947a98d59af",
+        "parentUid" : "f58223b466b04959e0e95e5dd6c5b164",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737898455,
+          "stop" : 1559737918879,
+          "duration" : 20424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testRemoveProductFromCart",
+        "uid" : "19269ed3406e4771",
+        "parentUid" : "f58223b466b04959e0e95e5dd6c5b164",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737898459,
+          "stop" : 1559737918879,
+          "duration" : 20420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f58223b466b04959e0e95e5dd6c5b164"
+    }, {
+      "name" : "ReduceQuantity",
+      "children" : [ {
+        "name" : "testReduceQuantity",
+        "uid" : "2c691e2ed7ff97d3",
+        "parentUid" : "1bf650435fd8b7f8684efad851264d1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737918916,
+          "stop" : 1559737939349,
+          "duration" : 20433
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testReduceQuantity",
+        "uid" : "17c11071315cfef1",
+        "parentUid" : "1bf650435fd8b7f8684efad851264d1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737918918,
+          "stop" : 1559737939349,
+          "duration" : 20431
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1bf650435fd8b7f8684efad851264d1e"
+    }, {
+      "name" : "DataDriveParametrizeSearch",
+      "children" : [ {
+        "name" : "testDataDriveParametrizeSearch",
+        "uid" : "f3b256a60af71b14",
+        "parentUid" : "131198984e96bceab704d986207c95e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737939366,
+          "stop" : 1559737949782,
+          "duration" : 10416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDataDriveParametrizeSearch",
+        "uid" : "70a3d422abc5f3ae",
+        "parentUid" : "131198984e96bceab704d986207c95e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1559737939371,
+          "stop" : 1559737949782,
+          "duration" : 10411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "131198984e96bceab704d986207c95e3"
+    } ],
+    "uid" : "ru.qa.testingsoft.login.tests"
+  } ]
+}

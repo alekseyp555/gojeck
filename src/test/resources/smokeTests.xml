@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SmokeTests" verbose="1" >
+    <test name="Smoke Tests">
+        <classes>
+            <class name="ru.qa.testingsoft.login.tests.LoginTest"/>
+            <class name="ru.qa.testingsoft.login.tests.SelectDepartmentTest"/>
+            <class name="ru.qa.testingsoft.login.tests.SearchMacbookTest"/>
+            <class name="ru.qa.testingsoft.login.tests.RemoveProductFromCartTest"/>
+            <class name="ru.qa.testingsoft.login.tests.ReduceQuantity"/>
+            <class name="ru.qa.testingsoft.login.tests.DataDriveParametrizeSearch"/>
+        </classes>
+    </test>
+</suite>

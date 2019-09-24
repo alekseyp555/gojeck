@@ -1,0 +1,126 @@
+{
+  "uid" : "2bed78cac6fcb3e1",
+  "name" : "testLogOut",
+  "fullName" : "ru.qa.testingsoft.login.tests.LoginTest.testLogOut",
+  "historyId" : "f3b2cc500a69d56fed2ef524e6747fb0",
+  "time" : {
+    "start" : 1559737867666,
+    "stop" : 1559737877507,
+    "duration" : 9841
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logTestStart",
+    "time" : {
+      "start" : 1559737867654,
+      "stop" : 1559737867654,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1559737845206,
+      "stop" : 1559737860311,
+      "duration" : 15105
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "logTestStop",
+    "time" : {
+      "start" : 1559737877510,
+      "stop" : 1559737877510,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1559737950140,
+      "stop" : 1559737951212,
+      "duration" : 1072
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.qa.testingsoft.login.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.testingsoft.login.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogOut"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTests"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.testingsoft.login.tests.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "PC"
+  }, {
+    "name" : "thread",
+    "value" : "1320@PC.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bed78cac6fcb3e1.json",
+  "parameterValues" : [ ]
+}

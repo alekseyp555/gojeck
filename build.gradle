@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.3"
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'io.qameta.allure'
+compileJava.options.encoding = 'UTF-8'
+
+allure {
+    version = '2.2.1'
+    autoconfigure = true
+    aspectjweaver = true
+}
+
+configurations {
+    agent
+}
+
+dependencies {
+    compile 'org.testng:testng:6.14.3'
+    compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
+    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile 'com.google.code.gson:gson:2.6.1'
+    compile 'ch.qos.logback:logback-classic:1.1.5'
+    compile "io.qameta.allure:allure-gradle:2.3"
+    compile "ru.yandex.qatools.allure:allure-testng-adaptor:1.5.4"
+    compile("io.qameta.allure:allure-testng:2.12.1")
+    agent "org.aspectj:aspectjweaver:1.8.10"
+}
+
+task testSmoke(type : Test) {
+    useTestNG {
+        suites 'src/test/resources/smokeTests.xml'
+    }
+    if (project.hasProperty('browser')) {
+    systemProperty 'browser', "${browser}"
+    }
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+
+testSmoke.doFirst {
+        jvmArgs "-javaagent:${configurations.agent.singleFile}"
+    }
+
+tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+}

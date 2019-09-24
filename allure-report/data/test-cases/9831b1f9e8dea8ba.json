@@ -1,0 +1,70 @@
+{
+  "uid" : "9831b1f9e8dea8ba",
+  "name" : "testLogOut",
+  "fullName" : "ru.qa.testingsoft.login.tests.LoginTest.testLogOut",
+  "historyId" : "caebe036135ff7c1bf17c0ebca4b40af",
+  "time" : {
+    "start" : 1559737867662,
+    "stop" : 1559737877506,
+    "duration" : 9844
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "PC"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.qa.testingsoft.login.tests.LoginTest"
+  }, {
+    "name" : "testGroup",
+    "value" : "Smoke Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testLogOut"
+  }, {
+    "name" : "testSuite",
+    "value" : "SmokeTests"
+  }, {
+    "name" : "thread",
+    "value" : "1320@PC.Test worker(11)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "SmokeTests"
+  }, {
+    "name" : "suite",
+    "value" : "Smoke Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "ru.qa.testingsoft.login.tests.LoginTest"
+  }, {
+    "name" : "package",
+    "value" : "ru.qa.testingsoft.login.tests.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9831b1f9e8dea8ba.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "f274f9b7d6047ac6a0288ac49f917098",
+    "name" : "SmokeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 14
+    }
+  } ]
+}
