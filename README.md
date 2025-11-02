@@ -1,18 +1,75 @@
-Problem Statement:
+▌ Техническое задание
 
-Please investigate www.amazon.com website and write a UI automation framework covering
-below scenarios:
-Prerequisite: Please create a dummy Google and amazon account to automate this and share
-the password as part of the solution
-Must have [Required]
-1. Perform a simple login and logout flow on the site
-2. Select Departments section > Electronics > Headphones > Select first available
-headphone and Add to cart
-3. Search for Macbook pro from Search bar and select 2nd available product and add to
-cart with Qty as 2
-4. Select cart from home and remove the earlier added headphones
-5. Reduce the quantity of the macbook pro product to 1 and proceed to checkout
-6. Data drive/parameterize to search for multiple different products via search bar
-7. Implement a reporting framework of your choice to display the test results
-Good to have [Optional]
-1. Setup to run these cases in parallel
+Необходимо разработать автоматизированный UI-тестировочный фреймворк на основе Java, JUnit и Selenium для проверки функционала веб-сайта www.amazon.com. Проект должен поддерживать следующие сценарии:
+
+▌ Обязательные условия:
+
+1. Необходимо создать учебные (фиктивные) аккаунты Google и Amazon(или https://www.demoblaze.com/cart.html) для целей автоматизации. В качестве примера указаны следующие данные:
+
+   Google-аккаунт:
+   Почта: example@gmail.com
+   Пароль: securePassw0rd
+
+   Аккаунт Amazon:
+   Почта: myamazonaccount@domain.com
+   Пароль: anotherSecurePwd
+
+   Данные представлены исключительно в демонстрационных целях. В рабочих проектах храните учетные данные в защищенном виде и передавайте их через переменные окружения.
+
+2. Провести простую процедуру входа и выхода на сайте Amazon.
+
+3. Зайти в раздел «Departments» → «Electronics» → «Headphones». Найти первый доступный наушник и добавить его в корзину.
+
+4. Используя строку поиска, найти продукт «Macbook Pro», выбрать второй доступный товар и добавить его в корзину с количеством товара равным двум.
+
+5. Из домашней страницы перейти в корзину и удалить ранее добавленные наушники.
+
+6. Уменьшить количество продукта «Macbook Pro» до единицы и продолжить оформление заказа.
+
+7. Реализовать механизм передачи множественных значений (Data-driven approach) для поиска товаров с разными названиями через строку поиска.
+
+8. Установить выбранную вами систему формирования отчетов о прохождении тестов (например, Allure или ExtentReports).
+
+▌ Желательное условие (необязательно):
+
+9. Настроить выполнение указанных выше тестовых сценариев в режиме параллельной обработки.
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+▌ Рекомендации по разработке:
+
+Рекомендуемая архитектура включает использование паттерна Page Object Model (POM) и создание удобочитаемого и поддерживаемого кода. Важно организовать решение таким образом, чтобы оно было легко масштабирующимся и готовым к внесению будущих улучшений.
+
+▌ Структура проекта:
+
+Типичный проект может иметь следующую структуру директорий и пакетов:
+
+src
+|-- main
+|   |-- java
+|       |-- utils
+|           |-- ConfigLoader.java
+|           |-- SeleniumHelper.java
+|       |-- pages
+|           |-- HomePage.java
+|           |-- SignInPage.java
+|           |-- SearchResultPage.java
+|           |-- ProductDetailPage.java
+|           |-- CartPage.java
+|           |-- CheckOutPage.java
+|   |-- resources
+|       |-- data
+|           |-- credentials.txt
+|           |-- products.csv
+|-- test
+|   |-- java
+|       |-- tests
+|           |-- SimpleLoginLogoutTest.java
+|           |-- PurchaseFlowTest.java
+|           |-- ParameterizedSearchTest.java⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+▌ Примечания:
+
+- Учтите необходимость правильной организации свойств (credentials, URL и т.п.) в файлах ресурсов (resources).
+- Параллельно выполняемые тесты требуют осторожного обращения с общими ресурсами (например, web-драйвером).
+- Сообщения в отчётах (логирование шагов, экранные снимки и проч.) помогут быстрее выявить проблемы при возникновении сбоев.
+
+Проект является базовым примером, готовым к дальнейшим доработкам и оптимизации в будущем.
